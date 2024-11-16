@@ -1,0 +1,26 @@
+/* src/RecipeList.css */
+
+.recipe-list {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .recipe-list h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .recipe-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .recipe-list li {
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .recipe-list p {
+    font-style: italic;
+  }
+  

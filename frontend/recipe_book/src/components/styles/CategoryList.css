@@ -1,0 +1,28 @@
+/* src/CategoryList.css */
+
+.category-list {
+    width: 200px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-right: 1px solid #ccc;
+  }
+  
+  .category-list h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .category-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .category-list li {
+    cursor: pointer;
+    padding: 8px 0;
+  }
+  
+  .category-list li:hover {
+    font-weight: bold;
+  }
+  

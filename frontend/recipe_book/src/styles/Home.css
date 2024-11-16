@@ -1,0 +1,111 @@
+/* src/components/Home.css */
+
+.home-page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.main-content {
+  display: flex;
+  flex: 1;
+}
+
+.category-list {
+  width: 12%;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-right: 2px solid #ddd;
+}
+
+.category-list h2 {
+  text-align: center;
+}
+
+.category-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.category-item {
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+}
+
+.category-item:hover {
+  background-color: #888;
+  color: white;
+}
+
+.recipe-list-dropdown {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+.recipe-item {
+  padding: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.recipe-item:hover {
+  background-color: #888;
+  color: white;
+}
+
+.recipe-display {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.tab-bar {
+  display: flex;
+  align-items: center;
+  background-color: #f1f1f1;
+  border-bottom: 1px solid #ddd;
+  min-height: 40px;
+  padding: 5px 10px;
+}
+
+.tab {
+  padding: 10px 20px;
+  cursor: pointer;
+  border-right: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.tab.active {
+  background-color: #e0e0e0;
+  font-weight: bold;
+}
+
+.close-btn {
+  margin-left: 10px;
+  color: red;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.no-tabs-message {
+  color: #888;
+  font-style: italic;
+}
+
+/* Small tabs style for when there are more than 8 open tabs */
+.tab-bar.small-tabs .tab {
+  padding: 5px 10px;
+  font-size: 0.9em;
+}
+
+.recipe-content {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+  color: #333;
+}

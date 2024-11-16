@@ -1,0 +1,76 @@
+/* Centering the login container */
+.login-container {
+    display: flex;
+    flex-direction: column; /* Align children vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    color:#fff;
+    background-color: #8B4513;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: absolute; /* Position absolutely to control its position */
+    top: 50%; /* 50% from the top of the page */
+    left: 50%; /* 50% from the left of the page */
+    transform: translate(-50%, -50%); /* Adjust for true centering */
+    margin-top: 50px;
+}
+
+/* Pin input styling */
+.pin-input {
+    width: 100%;
+    padding: 15px;
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 40px;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+}
+
+/* Button grid layout */
+.buttons-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+/* Pin button styling */
+.pin-button {
+    padding: 15px; /* Increased padding for larger buttons */
+    font-size: 30px; /* Larger text size */
+    border: none;
+    border-radius: 50%; /* Fully rounded button */
+    background-color: #fff;
+    color: #8B4513; /* Brown color for text */
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 85px; /* Set width */
+    height: 85px; /* Set height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pin-button:hover {
+    background-color: #ff7d20;
+}
+
+/* Action button styling */
+.action-button {
+    margin: 30px;
+    flex: 1;
+    padding: 15px; /* Increased padding for larger buttons */
+    font-size: 22px; /* Larger text size */
+    border: none;
+    border-radius: 15px;
+    background-color: #fff;
+    color: #8B4513;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.action-button:hover {
+    background-color: #ff7d20;
+}

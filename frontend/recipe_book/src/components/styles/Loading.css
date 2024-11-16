@@ -1,0 +1,36 @@
+/* src/Loading.css */
+
+.loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full screen height for centering */
+    position: relative;
+  }
+  
+  .loading-logo {
+    width: 180px; /* Adjust size as needed */
+    position: relative;
+    z-index: 1; /* Logo is above the spinning circle */
+  }
+  
+  .loading-container:before {
+    content: '';
+    position: absolute;
+    width: 150px; /* Diameter of the circle */
+    height: 150px;
+    border: 5px solid rgba(0, 0, 0, 0.1); /* Light shadow effect */
+    border-top: 5px solid #8B4513; /* Brown color */
+    border-radius: 50%;
+    animation: spin 1.5s linear infinite; /* Rotation animation */
+  }
+  
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  

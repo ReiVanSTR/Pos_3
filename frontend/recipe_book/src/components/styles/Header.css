@@ -1,0 +1,36 @@
+/* src/Header.css */
+
+.header {
+  display: flex;
+  justify-content: center; /* Centers the header content horizontally */
+  align-items: center; /* Centers content vertically */
+  background-color: #8B4513; /* Brown background color */
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 100%;
+}
+
+.header-content {
+  text-align: center; /* Centers the text content */
+  width: 100%; /* Ensures content stretches across the full width */
+  margin-right: 45px;
+}
+
+.header-title {
+  font-size: 2rem; /* Slightly larger text for readability */
+  margin: 0;
+  color: #fff; /* White text color */
+  display: flex;
+  align-items: center; /* Vertically aligns the text and logo */
+  justify-content: center; /* Centers text around the logo */
+  gap: 20px; /* Adds space between the logo and the text */
+}
+
+.header-logo {
+  width: 120px; /* Adjust logo size */
+  height: auto;
+}
+
+.header-text {
+  flex: 1; /* Makes text flexible and allows it to wrap around the logo */
+}
